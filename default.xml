@@ -17,13 +17,13 @@
   <!-- If you need other/additional targets, follow the same template: -->
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 
-  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_dev" remote="github">
+  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_marshmallow_nexus5" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project name="mikalackis/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="ariel_dev" />
 
-  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_dev" />
+  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_marshmallow_nexus5" />
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
