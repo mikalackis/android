@@ -23,6 +23,8 @@
 
   <project name="mikalackis/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="ariel_dev" />
 
+  <project name="platform_frameworks_support" path="frameworks/support" remote="github" revision="ariel_marshmallow_nexus5" />
+
   <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_marshmallow_nexus5" />
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
@@ -331,7 +333,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
