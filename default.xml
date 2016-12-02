@@ -45,7 +45,7 @@
   <!-- CMFileManager -->
   <project name="mikalackis/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="ariel_dev" />
   <project name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_cyanogen_UICommon" path="external/uicommon" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_cyanogen_UICommon" path="external/uicommon" remote="github" revision="cm-14.0" />
 
   <!-- END CYANOGENMOD -->
 
