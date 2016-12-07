@@ -6,7 +6,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-7.0.0_r21"
+  <default revision="refs/tags/android-7.1.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -18,7 +18,7 @@
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
-  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N5D91L" remote="github" />
+  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="NMF26F" remote="github" />
 
   <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_nougat_nexus5x" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
