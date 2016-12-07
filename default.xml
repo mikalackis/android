@@ -20,13 +20,13 @@
 
   <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N5D91L" remote="github" />
 
-  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_nougat_nexus5x" remote="github">
+  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_NMF26F" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_nougat_nexus5x" />
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_NMF26F" />
 
-  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_nougat_nexus5x" />
+  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_NMF26F" />
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
