@@ -24,7 +24,7 @@
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_NMF26F" />
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="NMF26F" />
 
   <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_NMF26F" />
 
