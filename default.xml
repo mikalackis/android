@@ -29,7 +29,7 @@
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
-  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
+  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_marshmallow" remote="github" />
 
   <!-- END ARIEL -->
 
