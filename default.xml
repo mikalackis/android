@@ -20,13 +20,13 @@
 
   <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N4F26I" remote="github" />
 
-  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_NMF26F" remote="github">
+  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_N4F26I" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_NMF26F" />
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_N4F26I" />
 
-  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_NMF26F" />
+  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_N4F26I" />
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
