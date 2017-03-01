@@ -12,12 +12,6 @@
 
   <!-- BEGIN ARIEL -->
 
-  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
-  <!-- If you need other/additional targets, follow the same template: -->
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
-
   <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N4F26O" remote="github" />
 
   <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_N4F26O" remote="github">
@@ -37,16 +31,16 @@
 
   <!-- BEGIN CYANOGENMOD -->
 
-  <project name="CyanogenMod/android_external_gson" path="external/gson" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/external_android_support-prebuilt" path="external/android/support-prebuilt" remote="github" revision="master" />
+ <!-- <project name="CyanogenMod/android_external_gson" path="external/gson" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/external_android_support-prebuilt" path="external/android/support-prebuilt" remote="github" revision="master" /> -->
 
   <!-- Eleven music player -->
-  <project name="CyanogenMod/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="cm-13.0" />
+<!--  <project name="CyanogenMod/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="cm-13.0" /> -->
 
   <!-- CMFileManager -->
-  <project name="mikalackis/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="ariel_dev" />
+  <!--<project name="mikalackis/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="ariel_dev" />
   <project name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_cyanogen_UICommon" path="external/uicommon" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_cyanogen_UICommon" path="external/uicommon" remote="github" revision="cm-14.0" />-->
 
   <!-- END CYANOGENMOD -->
 
