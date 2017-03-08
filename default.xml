@@ -6,22 +6,22 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-7.1.1_r14"
+  <default revision="refs/tags/android-7.1.1_r24"
            remote="aosp"
            sync-j="4" />
 
   <!-- BEGIN ARIEL -->
 
-  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N4F26O" remote="github" />
+  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N4F26T" remote="github" />
 
-  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_N4F26O" remote="github">
+  <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_N4F26T" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_N4F26O" />
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_N4F26T" />
   <!--<project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />-->
 
-  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_N4F26O" />
+  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_N4F26T" />
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
