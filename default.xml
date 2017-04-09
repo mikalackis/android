@@ -6,13 +6,13 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-7.1.1_r24"
+  <default revision="refs/tags/android-7.1.2_r3"
            remote="aosp"
            sync-j="4" />
 
   <!-- BEGIN ARIEL -->
 
-  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N4F26T" remote="github" />
+  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N2G47F" remote="github" />
 
   <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_N4F26T" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
