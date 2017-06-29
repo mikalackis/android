@@ -29,6 +29,8 @@
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
+  <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master" />
+
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
 
   <!-- END ARIEL -->
