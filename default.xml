@@ -21,13 +21,19 @@
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="hardware/ariel" name="mikalackis/android_hardware_ariel" revision="master" remote="github"/>
+
+ <project path="frameworks/opt/hardware" name="mikalackis/android_frameworks_opt_hardware" revision="master" remote="github"/>
+
   <project name="mikalackis/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="ariel_dev" />
 
   <project name="platform_frameworks_support" path="frameworks/support" remote="github" revision="ariel_marshmallow_nexus5" />
 
   <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_marshmallow_nexus5" />
 
-  <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
+  <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master_marshmallow" />
+
+  <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master" />
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
 
