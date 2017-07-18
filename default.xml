@@ -33,6 +33,8 @@
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
 
+  <project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />
+
   <!-- END ARIEL -->
 
   <!-- BEGIN CYANOGENMOD -->
@@ -61,7 +63,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <!--<project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />-->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
