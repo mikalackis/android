@@ -11,7 +11,7 @@
            sync-j="4" />
 
   <!-- BEGIN OPENGAPPS -->
-  <project path="vendor/google/build" name="mikalackis/aosp_build" revision="master" remote="github" />
+  <project path="vendor/opengapps/build" name="mikalackis/aosp_build" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
   <!-- If you need other/additional targets, follow the same template: -->
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />.
