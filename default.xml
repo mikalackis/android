@@ -35,6 +35,8 @@
 
   <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_N2G47Z" />
 
+  <project name="mikalackis/platform_packages_apps_settings" path="packages/apps/Settings" remote="github" revision="ariel_N2G47Z" />
+
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
   <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master" />
@@ -488,7 +490,6 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
