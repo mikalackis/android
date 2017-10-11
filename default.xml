@@ -176,7 +176,7 @@
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
-  <project path="external/embunit" name="platform/external/embunit" groups="pdk" />
+  <!--<project path="external/embunit" name="platform/external/embunit" groups="pdk" />-->
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
@@ -279,7 +279,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" />
-  <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
+  <!--<project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
@@ -574,7 +574,7 @@
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
-  <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
+  <!--<project path="system/connectivity/shill" name="platform/system/connectivity/shill" />-->
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
