@@ -110,8 +110,8 @@
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />
+  <!--<project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />-->
+  <!--<project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />-->
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device,pdk" />
@@ -223,7 +223,7 @@
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
+  <!--<project path="external/jhead" name="platform/external/jhead" groups="pdk" />-->
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed,pdk-fs" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk" />
@@ -274,7 +274,7 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
-  <project path="external/libweave" name="platform/external/libweave" groups="pdk" />
+  <!--<project path="external/libweave" name="platform/external/libweave" groups="pdk" />-->
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" />
