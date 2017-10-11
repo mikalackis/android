@@ -6,13 +6,15 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-8.0.0_r4"
+  <default revision="refs/tags/android-8.0.0_r16"
            remote="aosp"
            sync-j="4" />
 
   <!-- BEGIN ARIEL -->
 
-  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="N2G47Z" remote="github" />
+  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="OPR4.170623.009" remote="github" />
+
+  <project path="vendor_overlay/lge/bullhead" name="mikalackis/proprietary_vendor_overlay_lge_bullhead" revision="OPR4.170623.009" remote="github" />
 
   <project path="build" name="mikalackis/platform_build" groups="pdk" revision="ariel_OPR6.170623.013" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
@@ -33,7 +35,7 @@
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
 
-  <project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />
+  <!--<project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />-->
 
   <!-- END ARIEL -->
 
@@ -63,7 +65,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <!--<project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />-->
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
