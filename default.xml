@@ -24,7 +24,7 @@
 
   <project path="vendor_overlay/lge/bullhead" name="mikalackis/proprietary_vendor_overlay_lge_bullhead" revision="OPR4.170623.009" remote="github" />
 
-  <project path="build/make" name="mikalackis/platform_build" groups="pdk" revision="ariel_OPR6.170623.013" remote="github">
+  <project path="build/make" name="mikalackis/platform_build" groups="pdk" revision="OPR4.170623.009" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
       <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -38,18 +38,18 @@
 
   <project path="frameworks/opt/hardware" name="mikalackis/android_frameworks_opt_hardware" revision="master" remote="github"/>
 
-  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_OPR6.170623.013" />
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_OPR4.170623.009" />
   <!--<project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />-->
 
-  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_OPR6.170623.013" />
+  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_OPR4.170623.009" />
 
   <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
 
-  <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master_cmbased" />
+  <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master" />
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
 
-  <project name="mikalackis/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="ariel_N2G47Z" />
+  <project name="mikalackis/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="ariel_OPR4.170623.009" />
 
   <!--<project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />-->
 
