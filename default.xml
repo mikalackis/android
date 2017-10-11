@@ -10,6 +10,14 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- BEGIN OPENGAPPS -->
+  <project path="vendor/opengapps/build" name="mikalackis/aosp_build" revision="master" remote="github" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <!-- If you need other/additional targets, follow the same template: -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <!-- END OPENGAPPS -->
+
   <!-- BEGIN ARIEL -->
 
   <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="OPR4.170623.009" remote="github" />
