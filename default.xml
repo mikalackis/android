@@ -284,7 +284,7 @@
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" />
+  <!--<project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" />-->
   <project path="external/markdown" name="platform/external/markdown" groups="pdk" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
@@ -312,7 +312,7 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/openfst" name="platform/external/openfst" groups="pdk" />
+  <!--<project path="external/openfst" name="platform/external/openfst" groups="pdk" />-->
   <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
