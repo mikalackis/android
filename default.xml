@@ -49,8 +49,6 @@
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
 
-  <project name="mikalackis/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="ariel_OPR4.170623.009" />
-
   <!--<project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />-->
 
   <!-- END ARIEL -->
@@ -504,7 +502,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <!--<project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />-->
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
