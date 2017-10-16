@@ -47,7 +47,7 @@
 
   <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master" />
 
-  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master" remote="github" />
+  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_oreo" remote="github" />
 
   <!--<project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />-->
 
