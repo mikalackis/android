@@ -1,0 +1,13 @@
+ArielOS - Their phone. Your control.
+===========
+
+What is ArielOS?
+------------------
+
+ArielOS is a customized version of Android operating system. It provides features for remote control
+and administration of a device running on ArielOS via mobile application or web site.
+
+Repo initialization
+------------------
+
+repo init -u https://github.com/mikalackis/android.git -b ariel_marshmallow_nexus5
