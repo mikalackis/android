@@ -10,4 +10,4 @@ and administration of a device running on ArielOS via mobile application or web 
 Repo initialization
 ------------------
 
-repo init -u https://github.com/mikalackis/android.git -b ariel_OPR4.170623.009
+repo init -u https://github.com/mikalackis/android.git -b ariel_OPR6.170623.023
