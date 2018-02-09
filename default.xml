@@ -11,11 +11,11 @@
            sync-j="4" />
 
   <!-- BEGIN OPENGAPPS -->
-  <!--<project path="vendor/opengapps/build" name="mikalackis/aosp_build" revision="master" remote="github" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />-->
+  <project path="vendor/opengapps/build" name="mikalackis/aosp_build" revision="master" remote="github" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
   <!-- If you need other/additional targets, follow the same template: -->
-  <!--<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />-->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
   <!-- END OPENGAPPS -->
 
   <!-- BEGIN ARIEL -->
@@ -49,9 +49,9 @@
 
   <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_temp_oreo" remote="github" />
 
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-8.0" remote="github"/>
+<!--  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-8.0" remote="github"/>
 
-  <project path="external/busybox" name="omnirom/android_external_busybox" revision="android-8.0" remote="github"/>
+  <project path="external/busybox" name="omnirom/android_external_busybox" revision="android-8.0" remote="github"/> -->
 
   <!--<project path="bootable/recovery" name="mikalackis/android_bootable_recovery" revision="ariel-android-7.1" remote="github" />-->
 
