@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ArielOS additions -->
+
+  <!-- BEGIN OPENGAPPS -->
+  <project path="vendor/opengapps/build" name="mikalackis/aosp_build" revision="master" remote="github" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <!-- If you need other/additional targets, follow the same template: -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <!-- END OPENGAPPS -->
+
+  <!-- BEGIN ARIEL -->
+  
+  <project path="vendor/lge/bullhead" name="mikalackis/proprietary_vendor_lge_bullhead" revision="OPR6.170623.023" remote="github" />
+
+  <project path="vendor_overlay/lge/bullhead" name="mikalackis/proprietary_vendor_overlay_lge_bullhead" revision="OPR6.170623.023" remote="github" />
+
+  <remove-project name="platform/build" />
+  <project path="build/make" name="mikalackis/platform_build" groups="pdk" revision="ariel_OPR6.170623.023" remote="github">
+      <copyfile src="core/root.mk" dest="Makefile" />
+      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+      <linkfile src="core" dest="build/core" />
+      <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+      <linkfile src="target" dest="build/target" />
+      <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="hardware/ariel" name="mikalackis/android_hardware_ariel" revision="master" remote="github"/>
+
+  <project path="frameworks/opt/hardware" name="mikalackis/android_frameworks_opt_hardware" revision="master" remote="github"/>
+
+  <remove-project name="device/lge/bullhead" />
+  <project name="mikalackis/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ariel_OPR6.170623.023" />
+  <!--<project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />-->
+
+  <remove-project name="platform/frameworks/base" />
+  <project name="mikalackis/platform_frameworks_base" path="frameworks/base" remote="github" revision="ariel_OPR6.170623.023" />
+
+  <project name="mikalackis/android_packages_apps_ArielGuardian" path="packages/apps/ArielGuardian" remote="github" revision="master" />
+
+  <project name="mikalackis/android_packages_apps_ArielSetupWizard" path="packages/apps/ArielSetupWizard" remote="github" revision="master" />
+
+  <project path="vendor/ariel" name="mikalackis/platform_vendor_ariel" revision="master_temp_oreo" remote="github" />
+  
+</manifest>
+
